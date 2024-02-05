@@ -1,5 +1,7 @@
-Create a folder winaudiomac in C:\
 Dowload all files in https://github.com/d-dragon-project/winaudiomac
+Install Windows Driver Kit (WDK) - wdksetup.exe
+Install Notepad++ npp.8.6.2.Installer.x64.exe
+Create a folder winaudiomac in C:\
 Extract WBT.zip to c:\winaudiomac\WBT
 
 -Open command prompt with Administrator Accesscopy and paste line 6 to 19 to command prompt-
