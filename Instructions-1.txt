@@ -27,7 +27,7 @@ iasl -da -dl -fe refs.txt dsdt.dat
 copy dsdt.dsl dsdt-modified.dsl
 cd c:\winaudiomac
 pause
-@echo follow Instructions-2
+@echo follow Instructions-2.rtf
 pause
 
 
