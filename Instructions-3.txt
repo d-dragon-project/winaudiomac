@@ -1,0 +1,4 @@
+c: & cd \dsdt
+iasl -ve dsdt-modified.dsl
+reboot
+cd c:\
