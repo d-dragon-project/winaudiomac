@@ -20,7 +20,10 @@ copy dsdt.asl dsdt-modified.asl
 cd c:\winaudiomac\
 copy refs.txt c:\dsdt
 cd c:\winaudiomac
-
+c: & cd \dsdt
+iasl -da -dl -fe refs.txt dsdt.dat
+copy dsdt.dsl dsdt-modified.dsl
+cd c:\winaudiomac
 
 
 
