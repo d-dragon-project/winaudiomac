@@ -3,8 +3,8 @@ Install Windows Driver Kit (WDK) - wdksetup.exe
 Install Notepad++ npp.8.6.2.Installer.x64.exe
 Create a folder winaudiomac in C:\
 Extract WBT.zip to c:\winaudiomac\WBT
-
 -Open command prompt with Administrator Accesscopy and paste line 6 to 19 to command prompt-
+
 mkdir c:\dsdt
 cd c:\winaudiomac\WBT
 xcopy c:\winaudiomac\WBT\*.* c:\dsdt
@@ -26,6 +26,8 @@ c: & cd \dsdt
 iasl -da -dl -fe refs.txt dsdt.dat
 copy dsdt.dsl dsdt-modified.dsl
 cd c:\winaudiomac
-
+pause
+@echo follow Instructions-2
+pause
 
 
