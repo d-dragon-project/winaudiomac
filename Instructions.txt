@@ -2,7 +2,7 @@ Create a folder winaudiomac in C:\
 Dowload all files in https://github.com/d-dragon-project/winaudiomac
 Extract WBT.zip to c:\winaudiomac\WBT
 
--Open command prompt with Administrator Accesscopy and paste line 6 to 14 to command prompt-
+-Open command prompt with Administrator Accesscopy and paste line 6 to 19 to command prompt-
 mkdir c:\dsdt
 cd c:\winaudiomac\WBT
 xcopy c:\winaudiomac\WBT\*.* c:\dsdt
@@ -13,7 +13,13 @@ copy /y %32bit_OS_asl% c:\dsdt > nul & copy /y %64bit_OS_asl% c:\dsdt > nul
 if not exist c:\dsdt\asl.exe echo ERROR: Failed to copy asl.exe to c:\dsdt
 dir c:\dsdt
 @echo look for asl.exe
-
+c: & cd \dsdt
+acpidump -b -z
+asl /u dsdt.dat
+copy dsdt.asl dsdt-modified.asl
+cd c:\winaudiomac\
+copy refs.txt c:\dsdt
+cd c:\winaudiomac
 
 
 
