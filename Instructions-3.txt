@@ -1,6 +1,5 @@
+Using the existing/open command prompt copy and past the commands below then reboot the system
+
 c: & cd \dsdt
 iasl -ve dsdt-modified.dsl
-shutdown /r
-cd c:\
-cls
-cls
+exit
