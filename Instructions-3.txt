@@ -1,4 +1,6 @@
 c: & cd \dsdt
 iasl -ve dsdt-modified.dsl
-reboot
+shutdown /r
 cd c:\
+cls
+cls
