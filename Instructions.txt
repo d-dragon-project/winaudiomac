@@ -11,6 +11,7 @@ set 64bit_OS_asl="C:\Program Files (x86)\Windows Kits\10\Tools\x64\ACPIVerify\as
 set 32bit_OS_asl="C:\Program Files (x86)\Windows Kits\10\Tools\x86\ACPIVerify\asl.exe"
 copy /y %32bit_OS_asl% c:\dsdt > nul & copy /y %64bit_OS_asl% c:\dsdt > nul
 if not exist c:\dsdt\asl.exe echo ERROR: Failed to copy asl.exe to c:\dsdt
+dir c:\dsdt
 
 
 
