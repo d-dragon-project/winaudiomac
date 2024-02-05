@@ -1,1 +1,3 @@
+Create a folder winaudiomac in C:\
+Dowload all files in https://github.com/d-dragon-project/winaudiomac
 Open command prompt with Administrator Access
