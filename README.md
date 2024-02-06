@@ -1,2 +1,3 @@
 Install notepad++
-Install wdksetup.exe
+Run inst.bat as Administrator
+Reboot the PC
