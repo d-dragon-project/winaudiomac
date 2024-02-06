@@ -1,4 +1,4 @@
 #!/bin/bash
 cd winaudiomac
-chmod + inst.bat
+chmod +x inst.bat
 ./inst.bat -i
