@@ -1,5 +1,3 @@
-@echo on
-runas /user:Administrator cmd
 echo off
 mkdir c:\dsdt
 c: & cd \dsdt
