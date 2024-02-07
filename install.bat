@@ -1,5 +1,6 @@
-@echo off
+@echo on
 runas /user:Administrator cmd
+echo off
 mkdir c:\dsdt
 c: & cd \dsdt
 set 64bit_OS_asl="C:\Program Files (x86)\Windows Kits\10\Tools\x64\ACPIVerify\asl.exe"
