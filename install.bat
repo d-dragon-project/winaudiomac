@@ -68,6 +68,7 @@ echo Enable TESTSIGNING mode for the registry override to apply. At the Command 
 c: & cd \dsdt
 echo on
 bcdedit -set TESTSIGNING ON
-echo on
+echo off
 c: & cd \windows\system32
+echo on
 bcdedit -set TESTSIGNING ON
