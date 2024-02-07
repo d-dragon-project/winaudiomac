@@ -1,5 +1,5 @@
 @echo off
-runas /user:admin cmd
+
 c: & cd \windows\system32
 mkdir c:\dsdt
 c: & cd \dsdt
