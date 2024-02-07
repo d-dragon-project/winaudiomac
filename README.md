@@ -1,4 +1,4 @@
-Install notepad++  
+Install notepad++ & wkdsetup.exe  
 
 Download and install Git bash - https://git-scm.com/downloads
 
