@@ -6,5 +6,5 @@ note #2: Make sure that secure-boot is disable, on a macbookpro install rEFInd b
 1. Install notepad++ & wkdsetup.exe (use default settings)
 2. Download and install Git bash - https://git-scm.com/downloads
 3. In git bash goto $cd c:\ & execute $git clone https://github.com/d-dragon-project/winaudiomac
-4. Run the shorcut 
-5.  Reboot the PC
+4. Run the shorcut install.lnk
+5. Reboot the PC
