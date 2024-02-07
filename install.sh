@@ -1,4 +1,4 @@
 #!/bin/bash
 cd winaudiomac
-chmod +x inst.bat
-./inst.bat -i
+chmod +x install.lnk
+./install.lnk -i
