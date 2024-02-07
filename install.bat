@@ -18,4 +18,5 @@ asl /loadtable dsdt-modified.aml
 bcdedit -set TESTSIGNING ON
 c: & cd \windows\system32
 bcdedit -set TESTSIGNING ON
-exit
+echo System will Shutdown in 5 sec.
+shutdown.exe /r /t 05
